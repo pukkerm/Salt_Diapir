@@ -1,0 +1,16 @@
+# Verified with Python 3.10 on 2026-10-15 (the versions below were the ones used
+# to re-plot Figure 5 from this package).
+numpy==1.21.6
+h5py==3.16.0
+matplotlib==3.8.4
+
+# Needed only by the data-rebuilding scripts in 02_figures/pipeline/ and by
+# the stratal analysis (badlands_companion).
+pandas
+scipy
+netCDF4
+shapely
+descartes
+cmocean
+colorlover
+plotly
